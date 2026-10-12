@@ -1,4 +1,29 @@
+## Go, images, & python gitignore
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
 
+# Test binary, built with `go test -c`
+*.test
+
+# Code coverage profiles and other test artifacts
+*.out
+coverage.*
+*.coverprofile
+profile.cov
+
+# Dependency directories (remove the comment below to include it)
+# vendor/
+
+# Go workspace file
+go.work
+go.work.sum
+
+# env file
+.env
 
 
 # JPEG
@@ -93,3 +118,7 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
+
+# wit-stitch
+/bin/
+*.tiles/
